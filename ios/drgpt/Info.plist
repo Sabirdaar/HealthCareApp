@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Firebase Configurations -->
+    <key>CLIENT_ID</key>
+    <string>449715385470-2sl8sloon1rtpallaof3spksc4k1hdsh.apps.googleusercontent.com</string>
+    <key>REVERSED_CLIENT_ID</key>
+    <string>com.googleusercontent.apps.449715385470-2sl8sloon1rtpallaof3spksc4k1hdsh</string>
+    <key>API_KEY</key>
+    <string>AIzaSyChwM1Ig8TmnfHRMoTXXS3roF2h-7VSrS4</string>
+    <key>GCM_SENDER_ID</key>
+    <string>449715385470</string>
+    <key>PLIST_VERSION</key>
+    <string>1</string>
+    <key>BUNDLE_ID</key>
+    <string>com.aledrisy.drgpt</string>
+    <key>PROJECT_ID</key>
+    <string>drgpt-ad363</string>
+    <key>STORAGE_BUCKET</key>
+    <string>drgpt-ad363.appspot.com</string>
+    <key>IS_ADS_ENABLED</key>
+    <false/>
+    <key>IS_ANALYTICS_ENABLED</key>
+    <false/>
+    <key>IS_APPINVITE_ENABLED</key>
+    <true/>
+    <key>IS_GCM_ENABLED</key>
+    <true/>
+    <key>IS_SIGNIN_ENABLED</key>
+    <true/>
+    <key>GOOGLE_APP_ID</key>
+    <string>1:449715385470:ios:59daedc6cb82c67b8f142f</string>
+
+    <!-- Required for Google Sign-In -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <!-- Use your REVERSED_CLIENT_ID here -->
+                <string>com.googleusercontent.apps.449715385470-2sl8sloon1rtpallaof3spksc4k1hdsh</string>
+            </array>
+        </dict>
+    </array>
+
+    <!-- Support for Redirect Schemes (Safari or Chrome) -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>comgooglemaps</string>
+        <string>googlechrome</string>
+        <string>com.googleusercontent.apps.449715385470-2sl8sloon1rtpallaof3spksc4k1hdsh</string>
+    </array>
+
+    <key>UILaunchStoryboardName</key>
+    <string>SplashScreen</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>arm64</string>
+    </array>
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+</dict>
+</plist>
