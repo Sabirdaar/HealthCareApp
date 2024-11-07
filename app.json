@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "healthCare",
-    "slug": "healthCare",
+    "name": "drgpt",
+    "slug": "drgpt",
+    "scheme": "drgpt",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +13,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aledrisy.drgpt"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aledrisy.drgpt"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e7194f46-05de-4910-820c-349e93c558ac"
+      }
     }
   }
 }
